@@ -1,0 +1,123 @@
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 11px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.input-none {
+  font-family: "Roboto", sans-serif;
+  outline: none !important;
+  background: none !important;
+  width: none !important;
+  border: none !important;
+  margin: none !important;
+  padding: none !important;
+  box-sizing: border-none !important;
+  font-size: none !important;
+}
+.input-none:hover {
+  box-shadow: none !important;
+}
+.form select {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 11px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form select:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.form input:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.form textarea {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 11px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.Reimbursement-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+  margin-top: 28px;
+  /* margin-left: -23px; */
+  /* padding: 90px 10px 60px; */
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.form .message a {
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.btn-color {
+  background-color: #0d6efd !important;
+}
+.display_flex {
+  display: flex;
+}
+.property {
+  display: flex;
+  column-gap: 7px;
+}
+.radio-size {
+  width: 14px !important;
+  height: 25px;
+}
+.radio-btn {
+  display: flex;
+  column-gap: 18px;
+}
+.pb-16 {
+  padding-bottom: 16px;
+}
+.btn-clr {
+  background-color: #14b4dc !important;
+  border: none !important;
+}
+.cg-7 {
+  column-gap: 7px;
+}
+.text-grey {
+  color: grey !important;
+}
+
+.text-black {
+  color: black !important;
+}
+.w-14 {
+  width: 14px !important;
+}
+.m-0 {
+  margin-top: 0px !important;
+}
+.cg-4 {
+  column-gap: 4px;
+}
+
+.cg-24 {
+  column-gap: 24px;
+}

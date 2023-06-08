@@ -1,0 +1,26 @@
+.header {
+  padding: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.header__title {
+  font-size: 24px;
+  color: #333;
+}
+.profile {
+  width: 33px;
+}
+.header {
+  position: fixed;
+  background-color: #fff;
+}
+.pt-8 {
+  padding-top: 8px;
+}
+.cg-11 {
+  column-gap: 11px;
+}
+.spritle {
+  width: 44px;
+}

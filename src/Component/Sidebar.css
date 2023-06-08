@@ -1,0 +1,48 @@
+.sidebar {
+  width: 266px;
+  background-color: #fff;
+}
+
+.sidebar__menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+.sidebar__menu-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar__menu-item:hover {
+  background-color: #ddd;
+}
+.d-flex {
+  display: flex;
+}
+.reimbursement-img {
+  width: 32px;
+}
+.dash-img {
+  width: 32px;
+}
+.sidebar-text-color {
+  color: #fff;
+}
+.sidebar-align {
+  padding: 8.3333333333px 20px;
+}
+.padding-12 {
+  padding: 12px;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.sidebar {
+  position: fixed;
+}
+.send-btn {
+  display: flex;
+  justify-content: flex-end;
+}
