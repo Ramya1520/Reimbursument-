@@ -4,7 +4,7 @@
   background: #f2f2f2;
   width: 100%;
   border: 0;
-  margin: 0 0 15px;
+  margin: 0 0 20px;
   padding: 11px;
   box-sizing: border-box;
   font-size: 14px;
@@ -29,7 +29,7 @@
   background: #f2f2f2;
   width: 100%;
   border: 0;
-  margin: 0 0 15px;
+  margin: 0 0 20px;
   padding: 11px;
   box-sizing: border-box;
   font-size: 14px;
@@ -47,7 +47,7 @@
   background: #f2f2f2;
   width: 100%;
   border: 0;
-  margin: 0 0 15px;
+  margin: 0 0 20px;
   padding: 11px;
   box-sizing: border-box;
   font-size: 14px;
@@ -120,4 +120,43 @@
 
 .cg-24 {
   column-gap: 24px;
+}
+.text-red {
+  color: red;
+}
+.choose-backround {
+  background-color: #f2f2f2 !important;
+}
+.mb-13 {
+  margin-bottom: 13px;
+}
+.font-small {
+  font-size: smaller;
+}
+
+@media (min-width: 755px) and (max-width: 790px) {
+  /* Apply margin-left: 20px here */
+  .test {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 598px) and (max-width: 754px) {
+  /* Apply margin-left: 20px here */
+  .test {
+    margin-left: 62px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 599px) {
+  /* Apply margin-left: 20px here */
+  .test {
+    margin-left: 240px;
+  }
+}
+@media (min-width: 300px) and (max-width: 399px) {
+  /* Apply margin-left: 20px here */
+  .test {
+    margin-left: 296px;
+  }
 }

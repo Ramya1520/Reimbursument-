@@ -6,8 +6,8 @@ import attendance from "./assets/attendance.svg";
 
 const Sidebar = () => {
   return (
-    <div className="sidebar">
-      <ul className="sidebar__menu border-end">
+    <div className="sidebar col-sm-3">
+      <ul className="sidebar__menu ">
         <div className="d-flex padding-12">
           <img src={Dashboard} alt="dashboard" className="dash-img " />
           <li className=" sidebar-align fw-600">Dashboard</li>

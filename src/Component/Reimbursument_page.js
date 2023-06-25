@@ -11,14 +11,17 @@ const ReimbursumentPage = () => {
         <Header />
       </div>
       <div className="row sidebar-form">
-        <div className="col-lg-3">
+        {/*/ <div className="col-sm-12"> */}
+        <div className="col-sm-3  border-end">
           <Sidebar />
         </div>
-        <div className="col-lg-6 border-end">
+
+        <div className="col-sm-6 border-end d-flex justify-content-center test">
           <Details_form />
         </div>
       </div>
     </div>
+    // </div>
   );
 };
 
