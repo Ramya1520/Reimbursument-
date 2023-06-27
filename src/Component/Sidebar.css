@@ -1,5 +1,4 @@
 .sidebar {
-  width: 266px;
   background-color: #fff;
 }
 
@@ -46,3 +45,8 @@
   display: flex;
   justify-content: flex-end;
 }
+/* @media (min-width: 1800px) {
+  .width-1000 {
+    width: 20px !important;
+  }
+} */

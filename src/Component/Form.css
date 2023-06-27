@@ -57,8 +57,6 @@
   flex-direction: column;
   row-gap: 7px;
   margin-top: 28px;
-  /* margin-left: -23px; */
-  /* padding: 90px 10px 60px; */
 }
 
 .form .message {
@@ -134,29 +132,37 @@
   font-size: smaller;
 }
 
-@media (min-width: 755px) and (max-width: 790px) {
-  /* Apply margin-left: 20px here */
-  .test {
-    margin-left: 20px;
+@media (min-width: 300px) and (max-width: 790px) {
+  .text-size {
+    font-size: x-small !important;
+    width: 145px;
+    margin-left: -23px;
+  }
+}
+@media (min-width: 300px) and (max-width: 575px) {
+  .form-size {
+    width: 66%;
+    margin-left: 141px;
   }
 }
 
+/* 
 @media (min-width: 598px) and (max-width: 754px) {
-  /* Apply margin-left: 20px here */
+
   .test {
     margin-left: 62px;
   }
 }
 
 @media (min-width: 400px) and (max-width: 599px) {
-  /* Apply margin-left: 20px here */
+
   .test {
     margin-left: 240px;
   }
 }
 @media (min-width: 300px) and (max-width: 399px) {
-  /* Apply margin-left: 20px here */
+ 
   .test {
     margin-left: 296px;
   }
-}
+} */

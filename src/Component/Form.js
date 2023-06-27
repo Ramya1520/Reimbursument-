@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button } from "reactstrap";
 import "./Form.css";
+import { Navigate, useLocation } from "react-router-dom";
 
 const Details_Form = () => {
   const [formData, setFormData] = useState({
@@ -86,7 +87,7 @@ const Details_Form = () => {
   };
 
   return (
-    <div className="form col-sm-11 ">
+    <div className="form col-sm-11 form-size ">
       <form className="Reimbursement-form" onSubmit={handleSubmit}>
         <h4 className="pb-16">Claim a Reimbursement</h4>
         <div>

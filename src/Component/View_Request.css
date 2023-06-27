@@ -1,0 +1,30 @@
+td {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  font-size: medium !important;
+}
+.green-row {
+  background-color: #f8f9fa;
+}
+
+.blue-row {
+  background-color: white;
+}
+th {
+  padding-top: 1% !important;
+  padding-bottom: 1% !important;
+  text-align: center !important;
+  font-size: medium !important;
+}
+.overflow-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ml-21 {
+  margin-left: 21px;
+}
+.req {
+  margin: 18px 23px 21px 12px;
+}
